@@ -9,7 +9,7 @@ import io
 import os
 
 st.set_page_config(page_title="Fruit Detector", layout="centered")
-st.title("🍎 Real-Time Fruit Detection with Snapshot")
+st.title("Real-Time Fruit Detection with Snapshot")
 
 # === Azure Custom Vision Info ===
 PREDICTION_URL = "https://bigcatprediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/391dd797-5d5a-4ceb-a2bb-dd24fddabb66/detect/iterations/Iteration1/image"
